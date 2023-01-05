@@ -3,10 +3,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.primary-color { 
+.primary-color {
     color: #FD6E0A;
 }
-.primary-btn { 
+
+.primary-btn {
     background-color: #FD6E0A;
     color: #fff;
     font-size: 20px;
@@ -20,12 +21,12 @@
 }
 
 /* header area - main  */
-.header { 
+.header {
     background-color: #FFF8F3;
     padding: 40px 0;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: right bottom, left ;
+    background-position: right bottom, left;
 
 
 
@@ -33,7 +34,7 @@
 }
 
 /* ---header and navigation area ----- */
-nav { 
+nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
@@ -41,43 +42,49 @@ nav {
 
 
 }
-nav h2 { 
+
+nav h2 {
     font-size: 45px;
     font-weight: 800;
 }
 
-nav ul { 
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li { 
+
+nav ul li {
     list-style: none;
     margin-left: 50px;
     cursor: pointer;
 }
 
 /* ----------header > banner ---------- */
-.banner { 
+.banner {
     display: flex;
     align-items: center;
     margin: 0 50px 0 200px;
 
 }
-.name-start { 
+
+.name-start {
     font-size: 45px;
 
 }
-.name-title { 
+
+.name-title {
     font-size: 85px;
 
 }
+
 .banner p {
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 30px;
 
 }
-.secondary-btn { 
+
+.secondary-btn {
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
     border-radius: 5px;
@@ -87,5 +94,182 @@ nav ul li {
     font-size: 20px;
     margin-left: 30px;
 
+}
 
+/* Main section style */
+.main-section {
+    max-width: 1140px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+
+.description {
+    font-size: 18px;
+    line-height: 28px;
+    color: #757575;
+
+}
+
+/* about-me section stye */
+
+.main-section .about-me {
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+
+}
+
+
+.portfolio-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.portfolio-container .portfolio .attribute {
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+
+.portfolio-container .portfolio .value {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* what-i-do section  */
+.what-i-do {
+    padding: 130px 150px 50px 150px;
+
+}
+
+/* skill container section */
+.skill-container {
+    display: flex;
+    text-align: left;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #181818;
+
+}
+
+.skill-description {
+    font-size: 14px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* ======== my resume section style ====== */
+.resume-section {
+    padding: 100px 0;
+
+}
+.resume-section .section-title {
+    margin-bottom: 120px;
+}
+.resume { 
+    display: flex;
+    gap: 70px;
+    text-align: left;
+
+}
+
+.my-education-title,.my-experiance-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+
+.education-item, .experiance-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.education-title, .experiance-title {
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.education-sub-title, .experiance-sub-title{ 
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    color: #757575;
+
+}
+.education-description,.experiance-description { 
+    line-height: 28px;
+    color: #757575;
+
+}
+
+/* ========== Footer part style ========== */
+.footer {
+    background-color: #FFF8F3;
+}
+
+.connect .title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+
+}
+.connect .description {
+    color: #474747;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.social-media a {
+    text-decoration: none;
+    margin-right: 24px;
+}
+.contact {
+    display: flex;
+    padding: 120px 200px;
+    gap: 115px;
+
+}
+.message-title {
+    margin-bottom: 16px;
+}
+input[type= "text"], input[type = "email"]{
+    height: 20px;
+    width: 100%;
+    padding: 18px 30px;
+    color: #757575;
+    border-radius: 5px;
+    margin: 12px 0;
+    border: 0;
+}
+
+textarea {
+    padding: 18px 30px;
+    color: #757575;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    border: 0;
+    resize: none;
 }
